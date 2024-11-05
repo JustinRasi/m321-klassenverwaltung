@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"Alle Packages","u":"allpackages-index.html"},{"l":"ch.tbz.m321_klassenverwaltung"},{"l":"ch.tbz.m321_klassenverwaltung.Controller"},{"l":"ch.tbz.m321_klassenverwaltung.Model"},{"l":"ch.tbz.m321_klassenverwaltung.Repository"}];updateSearchResults();
