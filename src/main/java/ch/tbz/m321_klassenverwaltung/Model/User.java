@@ -11,8 +11,9 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String username;
-    private String password;
+
+    @Column(name = "full_name")
+    private String fullName;
 
     @ManyToOne
     @JoinColumn(name = "class_id")
@@ -42,8 +43,8 @@ public class User {
      *
      * @return the username of the user
      */
-    public String getUsername() {
-        return username;
+    public String getFullName() {
+        return fullName;
     }
 
     /**
@@ -51,26 +52,8 @@ public class User {
      *
      * @param username the username of the user
      */
-    public void setUsername(String username) {
-        this.username = username;
-    }
-
-    /**
-     * Gets the password of the user.
-     *
-     * @return the password of the user
-     */
-    public String getPassword() {
-        return password;
-    }
-
-    /**
-     * Sets the password of the user.
-     *
-     * @param password the password of the user
-     */
-    public void setPassword(String password) {
-        this.password = password;
+    public void setFullName(String username) {
+        this.fullName = username;
     }
 
     /**

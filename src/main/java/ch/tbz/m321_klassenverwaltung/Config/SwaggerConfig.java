@@ -1,4 +1,4 @@
-package ch.tbz.m321_klassenverwaltung;
+package ch.tbz.m321_klassenverwaltung.Config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
